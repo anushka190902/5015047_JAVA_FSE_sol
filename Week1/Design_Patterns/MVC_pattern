@@ -1,0 +1,12 @@
+Exercise 10: Implementing the MVC Pattern
+
+Scenario:
+
+You are developing a simple web application for managing student records using the MVC pattern.
+
+STEPS:
+Create a New Java Project: Named MVCPatternExample.
+Define Model Class: A class Student with attributes name, id, and grade.
+Define View Class: A class StudentView with a method displayStudentDetails().
+Define Controller Class: A class StudentController that manages communication between the model and the view.
+Test the MVC Implementation: A main class to create a Student, update its details using StudentController, and display them using StudentView.
