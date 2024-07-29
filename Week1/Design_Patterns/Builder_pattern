@@ -1,0 +1,11 @@
+Step 1: Define a Product Class
+        Create a class Computer with attributes like CPU, RAM, Storage, etc.
+
+Step 2 :  Implement the Builder Class
+          The Builder class inside Computer provides methods to set each attribute and a build() method to create an instance of Computer
+
+Step 3 :  Implement the Builder Pattern
+          Ensure that the Computer class has a private constructor that takes the Builder as a parameter.
+
+Step 4 :  Test the Builder Implementation
+          Create a test class to demonstrate the creation of different configurations of Computer using the Builder pattern.
