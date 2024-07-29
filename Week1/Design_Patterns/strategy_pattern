@@ -1,0 +1,21 @@
+Exercise 8: Implementing the Strategy Pattern
+
+Scenario:
+
+You are developing a payment system where different payment methods (e.g., Credit Card, PayPal) can be selected at runtime. Use the Strategy Pattern to achieve this.
+
+STEOS:
+
+Create a New Java Project: Named StrategyPatternExample.
+Define Strategy Interface: An interface PaymentStrategy with a method pay().
+Implement Concrete Strategies: Classes CreditCardPayment and PayPalPayment that implement PaymentStrategy.
+Implement Context Class: A class PaymentContext that holds a reference to PaymentStrategy and a method to execute the strategy.
+Test the Strategy Implementation: A test class to demonstrate selecting and using different payment strategies.
+
+By running the StrategyPatternTest class, you should see different payment strategies being used, demonstrating the flexibility and power of the Strategy design pattern.
+
+
+
+
+
+
