@@ -1,0 +1,14 @@
+Exercise 11: Implementing Dependency Injection
+
+Scenario:
+
+You are developing a customer management application where the service class depends on a repository class. Use Dependency Injection to manage these dependencies.
+
+STEPS:
+
+Create a New Java Project: Named DependencyInjectionExample.
+Define Repository Interface: CustomerRepository with method findCustomerById().
+Implement Concrete Repository: CustomerRepositoryImpl that implements CustomerRepository.
+Define Service Class: CustomerService that depends on CustomerRepository.
+Implement Dependency Injection: Use constructor injection to inject CustomerRepository into CustomerService.
+Test the Dependency Injection Implementation: Create a CustomerService with CustomerRepositoryImpl and use it to find a customer.
