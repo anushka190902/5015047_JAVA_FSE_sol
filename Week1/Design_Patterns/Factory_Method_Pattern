@@ -1,0 +1,15 @@
+Scenario:
+
+You are developing a document management system that needs to create different types of documents (e.g., Word, PDF, Excel). Use the Factory Method Pattern to achieve this.
+
+STEP 1: Define Document Classes
+        Create interfaces or abstract classes for different document types such as WordDocument, PdfDocument, and ExcelDocument
+
+STEP 2: Create Concrete Document Classes
+        Implement concrete classes for each document type that implements the above interfaces.
+
+STEP 3 :  Implement the Factory Method
+          Create an abstract class DocumentFactory with a method createDocument(). Then create concrete factory classes for each document type.
+
+STEP 4: Test the Factory Method Implementation
+        Create a test class to demonstrate the creation of different document types using the factory method
