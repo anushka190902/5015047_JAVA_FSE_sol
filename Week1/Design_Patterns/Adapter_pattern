@@ -1,0 +1,14 @@
+Exercise 4: Implementing the Adapter Pattern
+
+Scenario:
+
+You are developing a payment processing system that needs to integrate with multiple third-party payment gateways with different interfaces. Use the Adapter Pattern to achieve this.
+
+STEPS:
+
+1.Create a New Java Project: Named AdapterPatternExample.
+2.Define Target Interface: An interface PaymentProcessor with methods like processPayment().
+3.Implement Adaptee Classes: Classes for different payment gateways with their own methods.
+4.Implement the Adapter Class: Adapter classes for each payment gateway that implements PaymentProcessor and translates the calls to the gateway-specific methods.
+5.Test the Adapter Implementation: A test class to demonstrate the use of different payment gateways through the adapter.
+By running the AdapterPatternTest class, you should see different payment gateways being used through the PaymentProcessor interface, demonstrating the flexibility and power of the Adapter design pattern
