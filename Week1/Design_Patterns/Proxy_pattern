@@ -1,0 +1,14 @@
+Exercise 6: Implementing the Proxy Pattern
+
+Scenario:
+
+You are developing an image viewer application that loads images from a remote server. Use the Proxy Pattern to add lazy initialization and caching.
+
+STEPS:
+
+Create a New Java Project: Named ProxyPatternExample.
+Define Subject Interface: An interface Image with a method display().
+Implement Real Subject Class: A class RealImage that implements Image and loads an image from a remote server.
+Implement Proxy Class: A class ProxyImage that implements Image and holds a reference to RealImage. Implement lazy initialization and caching in ProxyImage.
+Test the Proxy Implementation: A test class to demonstrate the use of ProxyImage to load and display images.
+By running the ProxyPatternTest class, you should see that the images are loaded from the disk only once, demonstrating the lazy initialization and caching provided by the Proxy design pattern.
