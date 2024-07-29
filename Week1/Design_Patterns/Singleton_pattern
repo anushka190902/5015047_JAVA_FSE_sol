@@ -1,0 +1,5 @@
+STEP 1: Create a New Java Project: Named SingletonPatternExample.
+STEP 2:Define a Singleton Class: The Logger class with a private static instance and a private constructor.
+STEP 3: Implement the Singleton Pattern: Ensure that Logger follows the Singleton pattern with a public static getInstance method.
+STEP 4: Test the Singleton Implementation: A test class that verifies only one instance of Logger is created.
+By running the SingletonTest class, you should see that both logger1 and logger2 refer to the same instance, confirming the Singleton pattern is correctly implemented.
