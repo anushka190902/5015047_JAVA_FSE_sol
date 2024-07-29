@@ -1,0 +1,14 @@
+Exercise 9: Implementing the Command Pattern
+
+Scenario: You are developing a home automation system where commands can be issued to turn devices on or off. Use the Command Pattern to achieve this.
+
+Steps:
+
+Create a New Java Project: Named CommandPatternExample.
+Define Command Interface: An interface Command with a method execute().
+Implement Concrete Commands: Classes LightOnCommand and LightOffCommand that implement Command.
+Implement Invoker Class: A class RemoteControl that holds a reference to a Command and a method to execute the command.
+Implement Receiver Class: A class Light with methods to turn on and off.
+Test the Command Implementation: A test class to demonstrate issuing commands using the RemoteControl.
+
+By running the CommandPatternTest class, you should see the light being turned on and off, demonstrating the flexibility and power of the Command design pattern.
